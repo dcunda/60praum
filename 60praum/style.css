@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none; 
+}
+body{
+    position: relative;
+    width: auto;
+    height: auto;
+    background: linear-gradient(94.54deg, #241D1D 43.39%, #FF0000 193.72%);
+}
+.cabeça{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px ;
+    padding-bottom:20px ;
+    gap: 100px;
+    background-color: #1b1616;
+}
+.cabeça a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-family: 'Cormorant SC', serif;
+
+}
+.cabeça-item:hover{
+    transition: 0.5s;
+    color: #8d8d8d;
+    transform: scale(1.015);
+}
+.logo{
+    margin-left: -140px;
+}
+.wall{
+    height: 400px;
+    background-repeat: repeat-x;
+    background-size:contain;
+    background-image:url(https://mir-s3-cdn-cf.behance.net/projects/404/95c26d140770439.Y3JvcCwxNDAwLDEwOTUsMCwxNzM.jpg);
+}
+.camisas{
+    width: 280px;
+}
+.camisas p{
+    color: white;
+}
+.camisas h5{
+    color: white;    
+}
+.camisas img{
+    height: 300px;
+    width: 250px;
+}
+.camisas:hover{
+    transition: 0.5s;
+    color: #8d8d8d;
+    transform: scale(1.015);
+} 
+h1{
+    color: white;
+    text-align: center;
+    margin: 50px;
+    font-family: 'Cormorant SC', serif;
+    
+}
+.troupas{
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding-bottom: 30px;
+    font-family: 'Cormorant SC', serif;
+    border-bottom: 1px solid #FFFFFF;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+
+}
+footer{
+    margin: 50px;
+    border-top: 1px solid #FFFFFF;
+}
+.termos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.termos a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
+}
+.termos a:hover{
+    transition: 0.5s;
+    color: #8d8d8d;
+    transform: scale(1.015);
+}
+.termos-item{
+    margin-left: 20px;
+}
+.formulario{
+    margin-left: 50px;
+}
+.formulario li{
+    margin-bottom: 50px;
+}
+#txtNome{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+}
+#botao-enviar{
+    height: 50px;
+    width: 100px;
+}
+.produtos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.detalhe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+.detalhe button{
+    background-color: #1b1616;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 1%;
+}
